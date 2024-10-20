@@ -1,7 +1,35 @@
 /* Styles for Mobile Site */
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #E0C63D;
+    color: #6B28A1;
+}
+
 
 /* Header & Hero */
+h1,h2 {
+    font-size: 300%;
+    text-align:center;
+}
 
+h3 {
+    font-size:150%;
+    text-align: center;
+}
+p{
+    font-size:100%;
+    text-align: center;
+    padding:10px;
+}
+
+#hero,footer {
+    background-color: #8f8359;
+    text-align:center;
+}
+#hero img {
+    width:500px;
+
+}
 /* Projects */
 
 /* Reviews */
@@ -13,6 +41,7 @@
 @media (min-width: 1000px) {
 
     /* Header & Hero */
+
 
     /* Projects */
 

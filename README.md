@@ -1,4 +1,4 @@
-# IDMX 225 Midterm
+# IDMX 225 Midterm - Lowell Toncel
 
 Put your CSS in:
 
