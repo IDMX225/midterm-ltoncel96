@@ -1,8 +1,9 @@
 /* Styles for Mobile Site */
+
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #E0C63D;
-    color: #6B28A1;
+    color:#4A3061; 
 }
 
 
@@ -10,29 +11,83 @@ body {
 h1,h2 {
     font-size: 300%;
     text-align:center;
+    color:#6B28A1;
 }
 
 h3 {
     font-size:150%;
     text-align: center;
+    border:5px solid #6B28A1;
+    border-style: dotted;
+    padding:1rem;
 }
-p{
+
+h4,h5 {
     font-size:100%;
     text-align: center;
-    padding:10px;
+}
+
+
+p{
+    font-size:100%;
+    margin: 20px;
 }
 
 #hero,footer {
     background-color: #8f8359;
     text-align:center;
+    border: 5px solid rgb(0, 77, 10);
 }
 #hero img {
-    width:500px;
+    width:80%;
+    max-width: 500px;
+    border:5px solid rgb(0, 77, 10);
+    margin:1rem;
+    
 
 }
 /* Projects */
 
+#projects img {
+    max-width:100%;
+    border: .2rem solid rgb(0, 77, 10)
+  
+}
+
+#project figure{
+    text-align:center;
+}
+
+#projects div{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin: 1rem;
+    
+}
+
+
+
+#projects div p {
+    padding:10px;
+}
+
 /* Reviews */
+
+
+section#reviews {
+    border: 5px solid rgb(0, 77, 10);
+    border-style: double;
+    margin-bottom: 3rem;
+}
+
+#reviews div {
+    display:flex;
+    flex-direction: row;
+    padding:.5rem;
+}
+
+
 
 /* Footer */
 
@@ -44,9 +99,16 @@ p{
 
 
     /* Projects */
+#projects {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
+#projects h2 {
+    grid-column: 1/-1;
+}
     /* Reviews */
 
     /* Footer */
 
-}
+ }
