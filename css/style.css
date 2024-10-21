@@ -12,6 +12,7 @@ h1,h2 {
     font-size: 300%;
     text-align:center;
     color:#6B28A1;
+    margin-bottom:0rem;
 }
 
 h3 {
@@ -25,6 +26,8 @@ h3 {
 h4,h5 {
     font-size:100%;
     text-align: center;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -49,7 +52,8 @@ p{
 /* Projects */
 
 #projects img {
-    max-width:100%;
+    width: 100%;
+    max-width:700px;
     border: .2rem solid rgb(0, 77, 10)
   
 }
@@ -75,18 +79,19 @@ p{
 /* Reviews */
 
 
-section#reviews {
+#reviews {
     border: 5px solid rgb(0, 77, 10);
     border-style: double;
     margin-bottom: 3rem;
 }
 
 #reviews div {
+    align-items: center;
     display:flex;
-    flex-direction: row;
-    padding:.5rem;
-}
+    flex-direction: column;
+    margin-left: 1rem;
 
+}
 
 
 /* Footer */
@@ -108,7 +113,10 @@ section#reviews {
     grid-column: 1/-1;
 }
     /* Reviews */
-
+#reviews {
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
     /* Footer */
 
  }
